@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pasting.gj.cpp" />
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driverp.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="callspoof.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="ud.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="skcrypt.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="reverse.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="lmao.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includesfn.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{e9bd4e9f-0b7d-43c8-aa01-4b84b6005ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{fda7d6a5-36d1-4203-ad78-4c3c1e8f247c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{812992b6-31bf-4c7c-86f0-ddabddca5da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{29657753-c70d-4ffa-aea9-76d2c1524559}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

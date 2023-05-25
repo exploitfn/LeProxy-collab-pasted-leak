@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pasting.gj.cpp" />
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lmao.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includesfn.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="ud.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="paste.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="skcrypt.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="callspoof.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="includess.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="reg.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{de5224c6-fa89-49b2-86c5-717f8b5be4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{2c39202b-8faf-46f3-8c05-55bee887c226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{c3a35e96-4163-43b8-8a1e-eaf83c112c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{d6dd1e54-7c59-4ba5-8a51-95986b43cdb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
